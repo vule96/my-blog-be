@@ -17,7 +17,7 @@ jobs:
         env:
           POSTGRES_USER: root
           POSTGRES_PASSWORD: P@ssword123
-          POSTGRES_DB: social_network
+          POSTGRES_DB: my_blog
         ports:
           - 5432:5432
         options: >-
